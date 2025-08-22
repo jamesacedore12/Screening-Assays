@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screening Assays - Well Plate Templates for Scientific Research</title>
+    <meta name="description" content="Free, ready-to-use well plate templates in multiple formats to support scientific experiments. Streamline assay planning, data organization, and high-throughput workflows.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Screening Assays</h1>
+                    <p>Well Plate Templates & Resources</p>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#templates" class="nav-link">Templates</a></li>
+                    <li><a href="#resources" class="nav-link">Resources</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Streamline Your Scientific Research</h2>
+                    <p>Access free, ready-to-use well plate templates in multiple formats. Perfect for assay planning, data organization, and high-throughput workflows with accuracy and efficiency.</p>
+                    <div class="hero-buttons">
+                        <a href="#templates" class="btn btn-primary">Get Templates</a>
+                        <a href="#resources" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="plate-grid">
+                        <div class="well-row">
+                            <div class="well"></div>
+                            <div class="well"></div>
+                            <div class="well"></div>
+                            <div class="well"></div>
+                            <div class="well"></div>
+                            <div class="well"></div>
+                        </div>
+                        <div class="well-row">
+                            <div class="well active"></div>
+                            <div class="well active"></div>
+                            <div class="well"></div>
+                            <div class="well"></div>
+                            <div class="well active"></div>
+                            <div class="well active"></div>
+                        </div>
+                        <div class="well-row">
+                            <div class="well"></div>
+                            <div class="well active"></div>
+                            <div class="well active"></div>
+                            <div class="well active"></div>
+                            <div class="well active"></div>
+                            <div class="well"></div>
+                        </div>
+                        <div class="well-row">
+                            <div class="well"></div>
+                            <div class="well"></div>
+                            <div class="well"></div>
+                            <div class="well"></div>
+                            <div class="well"></div>
+                            <div class="well"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="article-section">
+            <div class="container">
+                <article class="blog-article">
+                    <header class="article-header">
+                        <h1>How to Map a Multiwell Plate for Screening Assays — a complete, practical guide</h1>
+                        <div class="article-meta">
+                            <span class="date">Latest Guide</span>
+                            <span class="reading-time">15 min read</span>
+                        </div>
+                    </header>
+
+                    <div class="article-content">
+                        <p>Mapping a multiwell plate is more than drawing letters and numbers on a grid. It's the backbone of reproducible, high-quality screening assays — the plan that defines where samples, standards, controls, and blanks live; how replicates are arranged; how to minimize systematic bias like edge effects; and how downstream analysis will read your raw data. This guide walks you through everything you need to design, document, and execute reliable plate maps for screening experiments (focus on 96-well plates, but the principles apply to 384, 24, and 6-well formats).</p>
+
+                        <p><strong>Second paragraph (anchor requirement):</strong> If you want a ready-to-use grid or printable template, start by downloading a preformatted <a href="https://96wellplatetemplate.com/">96 well plate map</a> — a grid organized as rows A–H and columns 1–12 that makes it simple to plan samples, replicates, and controls before you pipette. Using a template or plate-map file speeds setup, reduces transcription errors, and ensures your plate is documented in a human- and machine-readable format (keywords: plate map template, 96 well plate layout, plate mapping, screening assay template).</p>
+
+                        <h2>Quick overview: why plate mapping matters</h2>
+
+                        <div class="highlight-box">
+                            <ul>
+                                <li><strong>Error prevention:</strong> A clear plate map prevents mis-pipetting and sample swaps.</li>
+                                <li><strong>Statistical validity:</strong> Thoughtful placement of controls and replicates improves power and allows robust normalization.</li>
+                                <li><strong>Bias management:</strong> Plate effects (edge effects, row/column biases) can be minimized by layout choices like randomized sample placement and balanced controls.</li>
+                                <li><strong>Automation & traceability:</strong> Plate map files (CSV/TXT) let liquid handlers and readers ingest layout information directly and link metadata to raw data files.</li>
+                            </ul>
+                        </div>
+
+                        <h2>Anatomy of a typical multiwell plate (96-well focused)</h2>
+
+                        <p>A 96-well plate is an 8 × 12 grid. Rows are labeled A–H and columns 1–12, producing well addresses like A1 or H12. Plates vary by material (polystyrene, polypropylene), well shape (flat, round, v-bottom), surface treatment (tissue culture–treated, low-bind), color (clear, black, white), and type (standard, PCR-grade). Those choices affect assay performance (binding, fluorescence background, evaporation). Choose the plate type that matches your readout and assay chemistry.</p>
+
+                        <div class="info-box">
+                            <p><strong>Keywords to keep in mind:</strong> well ID, A1–H12, plate format, plate type, well volume, surface treatment, plate seal, low-bind.</p>
+                        </div>
+
+                        <h2>Plate map conventions and file formats</h2>
+
+                        <h3>Human-readable maps</h3>
+                        <p>The classic human map is a visual grid (A–H rows, 1–12 columns) typically printed or sketched in a lab notebook.</p>
+                        <p>Use concise labels in each well (e.g., S1-R1 for sample 1, replicate 1; PC for positive control; NC for negative control; STD1–STD8 for standards).</p>
+
+                        <h3>Machine-readable maps</h3>
+                        <p>Save as CSV/TXT with tab-delimited fields (well ID, sample ID, concentration, plate position, assay ID). Many instrument software packages accept these for automated setup.</p>
+
+                        <h3>Templates and printable maps</h3>
+                        <p>Use vendor or community templates to speed setup and ensure consistent formatting. Printable PDFs and spreadsheets are useful for manual setup and QC.</p>
+
+                        <h2>Building the plate map: step-by-step</h2>
+
+                        <div class="step-container">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h3>Define experimental units and replicates</h3>
+                                    <p>Decide the number of biological replicates and technical replicates required for statistical power.</p>
+                                    <p>Balance replicate strategy against plate capacity: e.g., 96 wells can hold 32 samples in triplicate (32 × 3 = 96) but this leaves no space for controls — so allocate wells for controls first.</p>
+                                </div>
+                            </div>
+
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h3>Reserve control wells before anything else</h3>
+                                    <p>Controls are critical to interpreting assay performance:</p>
+                                    <ul>
+                                        <li><strong>Positive controls (PC):</strong> wells expected to give a strong signal (e.g., known inhibitor/activator).</li>
+                                        <li><strong>Negative controls (NC):</strong> no-signal baseline (e.g., vehicle only).</li>
+                                        <li><strong>Blank wells:</strong> no reagent, measure instrument background.</li>
+                                        <li><strong>Standard curve wells:</strong> serial dilutions to allow quantification (if applicable).</li>
+                                    </ul>
+                                    <p>Place multiple replicates of each control in locations that sample the plate surface broadly (center and edges) to detect spatial bias. A common practice in screening is to spread controls across the plate to enable robust calculation of assay metrics.</p>
+                                </div>
+                            </div>
+
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h3>Block, randomize, or balance sample placement</h3>
+                                    <p>Randomization reduces systematic bias by randomly assigning samples to wells across the plate set.</p>
+                                    <p>Blocking groups related samples together within plates to control batch variables.</p>
+                                    <p>Balanced layouts intentionally distribute sample groups evenly across rows/columns to counteract known positional effects. Algorithmic layout tools can help optimize distribution and reduce bias.</p>
+                                </div>
+                            </div>
+
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h3>Account for edge effects and evaporation</h3>
+                                    <p>Edge wells can behave differently (evaporation, temperature gradients). Common strategies:</p>
+                                    <ul>
+                                        <li>Leave outermost wells as buffer/blank wells when feasible.</li>
+                                        <li>Use plate seals, humidity control, and pre-equilibration.</li>
+                                        <li>Randomize samples so that any edge bias doesn't map systematically to one experimental group.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="step">
+                                <div class="step-number">5</div>
+                                <div class="step-content">
+                                    <h3>Add replicates with purpose</h3>
+                                    <p>Technical replicates (same sample, same plate) measure pipetting/readout variability.</p>
+                                    <p>Biological replicates (independent samples) measure biological variability.</p>
+                                    <p>Where possible, distribute replicates across different plate locations and multiple plates to decouple position from biology.</p>
+                                </div>
+                            </div>
+
+                            <div class="step">
+                                <div class="step-number">6</div>
+                                <div class="step-content">
+                                    <h3>Document plate metadata</h3>
+                                    <p>For every plate, log:</p>
+                                    <p>Plate ID, date/time, operator, instrument, reader settings, lot numbers for critical reagents, incubation conditions, and any deviations.</p>
+                                    <p>Save the plate map file (CSV/TXT) with these metadata in a results folder so raw data can be traced back to the mapped layout.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2>Example plate-map patterns (templates)</h2>
+                        <p>Below are practical, commonly used templates for 96-well screening. Each example includes a short rationale.</p>
+
+                        <div class="template-grid">
+                            <div class="template-card">
+                                <h3>A — Simple screening with internal controls</h3>
+                                <ul>
+                                    <li>Columns 1–2: Standards or serial dilutions (if quantitative).</li>
+                                    <li>Columns 3–4: Positive controls (multiple replicates).</li>
+                                    <li>Columns 5–6: Negative controls.</li>
+                                    <li>Columns 7–12: Samples (randomized across rows).</li>
+                                </ul>
+                                <p><strong>Rationale:</strong> Separates standards and controls for clarity while leaving many wells free for samples.</p>
+                            </div>
+
+                            <div class="template-card">
+                                <h3>B — Triplicate sample layout (balanced)</h3>
+                                <ul>
+                                    <li>Reserve 8 wells for positive/negative controls and blanks (distributed across plate).</li>
+                                    <li>Use remaining 88 wells for 29 samples × 3 technical replicates.</li>
+                                </ul>
+                                <p><strong>Rationale:</strong> Triplicates improve precision and allow within-plate variability measurement.</p>
+                            </div>
+
+                            <div class="template-card">
+                                <h3>C — High-throughput hit screening</h3>
+                                <ul>
+                                    <li>Spread negative and positive controls across the plate (every few columns/rows) to create many internal normalization points.</li>
+                                    <li>Distribute library compounds or samples randomly to avoid spatial clustering of hits.</li>
+                                </ul>
+                                <p>(Use a printable 96-well plate map template to sketch these before pipetting — it saves errors.)</p>
+                            </div>
+                        </div>
+
+                        <h2>Controls, normalization, and assay quality metrics</h2>
+
+                        <h3>Z′ factor, SSMD, and other QC metrics</h3>
+                        <p>Z′ factor quantifies separation between positive and negative controls; ideal assays have Z′ > 0.5.</p>
+                        <p>SSMD (Strictly Standardized Mean Difference) is another robust metric for hit calling.</p>
+                        <p>Calculate QC metrics plate-by-plate to detect failing plates early.</p>
+
+                        <h3>Normalization strategies</h3>
+                        <ul>
+                            <li><strong>Percent of control (%):</strong> scale sample values relative to controls.</li>
+                            <li><strong>Robust statistical normalization:</strong> median polish, loess correction, or plate-wise local background subtraction can correct spatial trends (e.g., bowl-shaped effects).</li>
+                            <li><strong>Per-plate vs. cross-plate normalization:</strong> when comparing across plates, include reference controls and inter-plate calibrators.</li>
+                        </ul>
+
+                        <h2>Automation, liquid handling, and plate setup files</h2>
+                        <p>To integrate plates into automated workflows:</p>
+                        <p>Create plate setup files (CSV/TXT) that specify well contents and tasks for liquid handlers and plate readers. Many instrument vendors support tab-delimited files describing well IDs and sample IDs. This reduces transcription errors and lets instruments perform plate-specific steps (dispense volumes, aspirate, read mode).</p>
+                        <p>Use consistent naming conventions for plate IDs (project_experiment_plate_YYYYMMDD_run) to simplify traceability.</p>
+
+                        <h2>Common pitfalls and troubleshooting</h2>
+
+                        <div class="pitfall-grid">
+                            <div class="pitfall-card">
+                                <h3>Pitfall 1 — Too few controls</h3>
+                                <p><strong>Fix:</strong> Allocate more control wells and spread them across the plate. Controls are the anchors for QC and normalization.</p>
+                            </div>
+
+                            <div class="pitfall-card">
+                                <h3>Pitfall 2 — Non-random sample placement</h3>
+                                <p><strong>Fix:</strong> Randomize or use algorithmic layout tools to prevent clustering of experimental groups where positional bias could confound results.</p>
+                            </div>
+
+                            <div class="pitfall-card">
+                                <h3>Pitfall 3 — Ignoring edge effects</h3>
+                                <p><strong>Fix:</strong> Test whether edge wells differ from center wells in pilot runs. Use plate seals, humidity control, or sacrificial edge wells if necessary.</p>
+                            </div>
+
+                            <div class="pitfall-card">
+                                <h3>Pitfall 4 — Poor documentation</h3>
+                                <p><strong>Fix:</strong> Always save plate map files with metadata, operator notes, and instrument logs.</p>
+                            </div>
+                        </div>
+
+                        <h2>Data handling: from raw plate map to analyzed dataset</h2>
+                        <ol>
+                            <li>Import raw reads from the plate reader together with the plate map file.</li>
+                            <li>Assign well identities (A1–H12) to the measurements.</li>
+                            <li>Flag controls and blanks and compute QC metrics (mean/SD of controls, Z′).</li>
+                            <li>Normalize sample values using chosen method (percent of control, per-plate scaling, robust normalization).</li>
+                            <li>Flag outliers and plates that fail QC for review or rerun.</li>
+                            <li>Aggregate replicates and compute final statistics (mean, SD, confidence intervals).</li>
+                            <li>Document every step in a pipeline script or analysis notebook (R/Python) so the entire process is reproducible.</li>
+                        </ol>
+
+                        <h2>Designing plate maps for specialized assays</h2>
+
+                        <h3>Dose-response / IC50 assays</h3>
+                        <p>Create standard curves or serial dilutions across multiple wells and include replicates.</p>
+                        <p>Place standards in separate columns/rows that are easy to extract into a standard-curve routine.</p>
+
+                        <h3>Cell-based luminescence / fluorescence assays</h3>
+                        <p>Pay attention to plate color: black plates reduce fluorescence bleed; white plates enhance luminescence sensitivity.</p>
+                        <p>Ensure plates are tissue-culture treated when cells must adhere; otherwise, use low-bind plates.</p>
+
+                        <h3>ELISA-style or immunoassays</h3>
+                        <p>Consider blocking wells and having dedicated blanks for background subtraction.</p>
+                        <p>Include standard curves on each plate for absolute quantification.</p>
+
+                        <h2>Example: a validated workflow for a 96-well cell-based viability screen</h2>
+                        <ol>
+                            <li><strong>Pilot test:</strong> Check seeding density across the plate to ensure consistent confluency (test different densities across a plate to identify best locations).</li>
+                            <li><strong>Plate map design:</strong> Reserve columns 1 and 12 as buffer blanks; distribute positive and negative controls across columns 3, 6, 9; add triplicate technical replicates for each sample in the remaining wells.</li>
+                            <li><strong>Automation:</strong> Create a plate setup CSV for the liquid handler describing dispense volumes for each well.</li>
+                            <li><strong>Run:</strong> Seed cells, treat, incubate, read.</li>
+                            <li><strong>QC:</strong> Compute Z′ using positive and negative controls; inspect heatmap of raw reads for spatial trends (bowl, gradient).</li>
+                            <li><strong>Normalize:</strong> Apply per-plate normalization to % of control, then compute mean and SD for replicates.</li>
+                            <li><strong>Hit calling:</strong> Use thresholds based on normalized values and include replicate concordance as a criterion.</li>
+                        </ol>
+
+                        <h2>Best-practice checklist (printable)</h2>
+                        <div class="checklist">
+                            <div class="checklist-item">☐ Choose an appropriate plate type and reader settings.</div>
+                            <div class="checklist-item">☐ Reserve and distribute controls across the plate.</div>
+                            <div class="checklist-item">☐ Choose replicate strategy (technical vs biological).</div>
+                            <div class="checklist-item">☐ Randomize or algorithmically design sample layout.</div>
+                            <div class="checklist-item">☐ Use template files (CSV/TXT) for automation and to prevent transcription errors.</div>
+                            <div class="checklist-item">☐ Seal and control humidity/temperature to reduce evaporation.</div>
+                            <div class="checklist-item">☐ Log metadata (operator, lot numbers, instrument, incubation times).</div>
+                            <div class="checklist-item">☐ Compute QC metrics (Z′, SSMD) for every plate.</div>
+                            <div class="checklist-item">☐ Save plate map and raw data together for reproducibility.</div>
+                            <div class="checklist-item">☐ Revisit layout after pilot runs and adapt.</div>
+                        </div>
+
+                        <h2>Advanced topics (brief)</h2>
+
+                        <h3>Plate-to-plate normalization and batch effects</h3>
+                        <p>Use common reference controls across plates and randomize plates across batches to detect and correct for batch-level shifts when combining plates for analysis.</p>
+
+                        <h3>Algorithmic plate design</h3>
+                        <p>Constraint programming and layout-optimization tools can design plate layouts that minimize batch effects and balance controls — useful when running hundreds of plates.</p>
+
+                        <h3>Well-to-well contamination</h3>
+                        <p>When transfer between wells is possible (e.g., tip touching, splashing), take measures: use filtered tips, implement careful pipetting parameters, and consider plate washing steps if applicable. Randomized layouts and processing samples of similar biomass together reduce cross-contamination risk.</p>
+
+                        <h2>Final tips — practical lab etiquette for mapping plates</h2>
+                        <ul>
+                            <li>Always double-check your plate map against the physical plate before you begin pipetting (two-person check if critical).</li>
+                            <li>Label plates clearly with plate ID, date, and operator initials.</li>
+                            <li>Keep a versioned plate map (e.g., platemap_v1.csv) so changes are tracked.</li>
+                            <li>Pilot first. Run small pilot plates to reveal unforeseen spatial effects or reagent problems before committing precious samples.</li>
+                            <li>Train staff on naming conventions, map templates, and documentation practices.</li>
+                        </ul>
+
+                        <h2>Conclusion</h2>
+                        <p>A well-designed plate map transforms a messy, error-prone experiment into a reproducible, analyzable workflow. By planning controls first, balancing or randomizing sample placement, guarding against edge effects, documenting everything in standardized plate setup files, and checking per-plate QC metrics, you'll reduce false positives/negatives and improve the scientific integrity of your screening assays. Start every assay by sketching or obtaining a 96-well plate map template, commit the map to a machine-readable file, and treat plate mapping as an essential experimental step — not an afterthought.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="templates" class="templates-section">
+            <div class="container">
+                <h2>Available Templates</h2>
+                <div class="template-showcase">
+                    <div class="template-item">
+                        <h3>96-Well Plate Template</h3>
+                        <p>Standard 8×12 grid layout for most screening assays</p>
+                        <a href="#" class="btn btn-primary">Download</a>
+                    </div>
+                    <div class="template-item">
+                        <h3>384-Well Plate Template</h3>
+                        <p>High-density format for large-scale screening</p>
+                        <a href="#" class="btn btn-primary">Download</a>
+                    </div>
+                    <div class="template-item">
+                        <h3>24-Well Plate Template</h3>
+                        <p>Larger wells for cell culture applications</p>
+                        <a href="#" class="btn btn-primary">Download</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources" class="resources-section">
+            <div class="container">
+                <h2>Resources & Tools</h2>
+                <div class="resource-grid">
+                    <div class="resource-card">
+                        <h3>Plate Design Guidelines</h3>
+                        <p>Best practices for experimental design and control placement</p>
+                    </div>
+                    <div class="resource-card">
+                        <h3>Quality Control Metrics</h3>
+                        <p>Understanding Z-factor, SSMD, and other assay validation metrics</p>
+                    </div>
+                    <div class="resource-card">
+                        <h3>Data Analysis Tools</h3>
+                        <p>Scripts and workflows for processing plate reader data</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Screening Assays</h2>
+                <p>We provide free, ready-to-use well plate templates and resources to support scientific research. Our mission is to help researchers streamline assay planning, improve data organization, and enhance the accuracy and efficiency of high-throughput workflows.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Have questions or suggestions? We'd love to hear from you.</p>
+                <div class="contact-info">
+                    <p>Email: info@screeningassays.com</p>
+                    <p>Follow us for updates and new resources</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Screening Assays. All rights reserved. | Free resources for scientific research</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Active navigation link highlighting
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
